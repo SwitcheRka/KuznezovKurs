@@ -4,12 +4,12 @@ ymaps.ready(init);
 function init() {
     // Создание карты
     var myMap = new ymaps.Map("map", {
-        center: [55.751244, 37.618423], // Координаты центра (Москва)
+        center: [48.703685, 44.512403], // Координаты центра (Москва)
         zoom: 15 // Масштаб
     });
     
     // Добавление метки
-    var myPlacemark = new ymaps.Placemark([55.751244, 37.618423], {
+    var myPlacemark = new ymaps.Placemark([48.703685, 44.512403], {
         hintContent: 'Western Rush',
         balloonContent: '<strong>Western Rush</strong><br>ул. Примерная, 123'
     }, {
